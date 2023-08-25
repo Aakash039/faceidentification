@@ -21,3 +21,10 @@ PROBLEM AREA DESCRIPTION
                         The administrator is responsible for providing User id’s and passwords. He provides authentication to the users. He creates deletes and Updates the User ids and Passwords. 
                         The operator, who belongs to the investigating department, is responsible for entering the criminal details and maintains them. He adds, deletes and updates the criminal details. He also constructs the criminal face with the help of eye witness.
                         The eyewitness identifies the criminals with the help of cropped parts stored in a different database by the operator. The eyewitness selects a cropped part from the database and that cropped part will be freeze by the operator  in this way, complete face of the criminal is constructed and the details of that criminal is retrieved from the database. We can also construct a new image from those cropped parts which we consider as an imaginary face of the criminal.
+
+Hardware Requirements:
+•	System Configuration
+Processor			:		Pentium III – 900 MHz
+Hard Disk		:		20 GB
+RAM 			:		128 MB
+
