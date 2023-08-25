@@ -1,5 +1,6 @@
 # Criminal Face Identification System
 Criminal Face Identification System using java and jsp
+
 PURPOSE OF THE PROJECT:
         This project is aimed to identify the criminals in any investigation department. Here the technique is we already store some images of the criminals in our database along with his details and that images are segmented into many slices say eyes, hairs, lips, nose, etc. These images are again stored in another database record so to identify any criminals; eyewitnesses will see the images or slices that appear on the screen by using it we develop the face, which may or may not be matched with our images. If any image is matched up to 99% then we predict that he is only the criminal. Thus using this project it provides a very friendly environment for both operator and eyewitness to easily design any face can identify criminals very easy. 
 PROJECT OBJECTIVE:
