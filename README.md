@@ -3,12 +3,16 @@ Criminal Face Identification System using java and jsp
 
 PURPOSE OF THE PROJECT:
         This project is aimed to identify the criminals in any investigation department. Here the technique is we already store some images of the criminals in our database along with his details and that images are segmented into many slices say eyes, hairs, lips, nose, etc. These images are again stored in another database record so to identify any criminals; eyewitnesses will see the images or slices that appear on the screen by using it we develop the face, which may or may not be matched with our images. If any image is matched up to 99% then we predict that he is only the criminal. Thus using this project it provides a very friendly environment for both operator and eyewitness to easily design any face can identify criminals very easy. 
+	
 PROJECT OBJECTIVE:
  	This project is intended to identify a person using the images previously taken. The identification will be done according the previous images of different persons. 
+  
 PROJECT SCOPE:
   	 The scope of the project is confined to store the image and store in the database. When a person has to be identified the images stored in the database are compared with the existing details.
+    
 OVERVIEW OF THE PROJECT:
 	This project is aimed to identify the criminals in any investigation department. Here the technique is we already store some images of the criminals in our database along with his details and those images are segmented into many slices say eyes, hairs, lips, nose, etc. These images are again stored in another database record so to identify any criminals; eyewitnesses will see the images or slices that appear on the screen by using it we develop the face, which may or may not be matched with our images. If any image is matched up to 99% then we predict that he is only the criminal. Thus using this project it provides a very friendly environment for both operator and eyewitness to easily design any face can identify criminals very easy. 
+ 
 PROBLEM AREA DESCRIPTION
                          The project is aimed at identifying the criminals with the help of eye witness. There are mainly four modules in our project. They are Adding, Deleting, Updating and identifying the criminals. There are mainly three roles in our project. They are:
 	Administrator
