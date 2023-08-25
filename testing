@@ -1,0 +1,58 @@
+TESTING
+
+ 
+
+Software testing is a critical element of software quality assurance and represents the ultimate reviews of specification, design and coding. Testing represents an interesting anomaly for the software. During earlier definition and development phases, it was attempted to build software from an abstract concept to a tangible implementation. No system is error free because it is so till the next error crops up during any phase of the development or usage of the product. A sincere effort however needs to be put to bring out a product that is satisfactory.
+	The testing phase involves the testing of development system using various data. Preparation of the test data plays a vital role in system testing. After preparing the test data, the system under study was tested using those data. While testing the system, by using the test data, errors were found and corrected by using the following testing steps and corrections were also noted for future use. Thus, a series of testing is performed on the proposed system before the system is ready for implementation. 
+	The various types of testing done on the system are: 
+	Integration testing
+	Validation testing 
+	Unit testing
+	Output testing
+	User Acceptance testing
+Unit testing:
+	Unit testing focuses on verification effort on the smallest unit of software design module. Using the unit test plans prepared in the design phase of the system development as a guide, important control paths are tested to uncover errors with in the boundary of the modules. The interfaces of the modules are tested to ensure proper flow of information into and out of the modules under consideration boundary conditions were checked. All independent paths were exercised to ensure that all statements in the module have been executed at least once and all error-handling paths were tested.
+		Each unit is thoroughly tested to check if it might fail in any possible situation. This testing is carried during the programming state itself. At the end of this testing phase each module is found to be have an adverse effect working satisfactorily, as regard to the expected output from the module.
+Integration Testing:
+		Data can be lost across an interface, one module can on another; sub-functions when combined may not produce the desired major function: global data structures can present problems. Integration testing is a systematic technique for the program structure while at the same time concluding tests to uncover errors associated with interface. All modules are combined in this testing step. Then the entire program is tested as a whole. Each of the module is integrated and tested separately and later all modules are tested together for sometime to ensure the system as a whole works well without any errors.
+Validation Testing:
+	At the culmination of the integration testing, the software is completely assembled as a package, interfacing errors have been uncovered and corrected, and a final series of software validation testing began. Here we test if the system functions in a manner that can be reasonably expected by the customer. The system is tested against the system requirement specification.
+Output Testing:
+	After performing validation testing, the next phase is output testing of the proposed system, since no system can be useful if it does not produce the desired output in the specified format. The output generated or displayed by the system under consideration is tested by asking the user about the format required by them, here, the output format is considered in two ways: One is on the screen and the other is on the printed form. Beta testing is carried output by the client, and minor errors that have been discovered by the client are rectified to improve the user friendliness of the system.
+
+
+
+
+Object-Oriented Testing
+
+	The overall objectives of the object-oriented testing – to find the maximum number of errors with a minimum amount effort – is identical to the to the objective of conventional software testing. But the strategy and tactics for OO testing differ significantly. The view of testing broadens to include the review of both the analysis and design model. In addition, the focus of testing moves away from the procedural component and toward the class.
+	Because the OO analysis and design models and the resulting source code are semantically coupled, testing begins during these engineering activities. For this reason, a review of CRC, object relationships, and object behavior models can be viewed as first stage testing. As a result of this first stage testing, we encountered few problems in OOA done at analysis time. We have gone back and remodeled with new errorless classes and their relationships. The documented model is the revised model of earlier analysis model.
+	Once OOP has been accomplished, unit testing is applied for each class. Class testing uses a variety of methods: fault-based, random, and partition test methods. Each of those methods exercises the operations encapsulated by the class. Test sequences are designed to ensure that relevant operations are exercised. The state of the class, represented by the values of its attributes, is examined to determine if errors exist.
+	Integration test can be accomplished using a thread-based or use-based strategy. Thread-based strategy integrates the set of classes that collaborate to respond to one input or event. Use-based testing constructs the system in layers, beginning with those classes that do not make use of server classes. Integration test case design methods can also make use of random and partition tests. In addition, scenario based testing and the tests derived from behavioral models can be used to test a class and its collaborators. A test sequence tracks the flow of operations across class collaborations.
+	OO system validation testing is black box oriented and can be accomplished by applying the same black box methods known for conventional software. However scenario based testing dominates the validation of OO systems, making the use case a primarily driver for validation testing.
+	We mainly concentrated on scenario based testing strategy. Some of the test cases for scenario based testing are given below.
+Test case #1
+Use Case:		download a file
+Background:		User wants to download a file from Criminal Face Identification System
+Event Sequence:
+1.	Select file to down load in remote tree panel.
+2.	Right click and then click download.
+Test case #2
+Use Case	:	upload a file
+Background	:	User wants to upload a file to  the server from client.	
+Event Sequence:
+1.	Click file in local file view tree.
+2.	Right click and select upload.
+Test case #3
+Use Case	:	Remove file on remote server
+Background	:	User wants to delete a file on the server..	
+Event Sequence:
+1.	Select file on remote file view tree panel.
+2.	Right click and select ‘Delete’.
+Test case #4
+Use Case	:	Disconnect to server
+Background	:	User wants to close the session.
+Event Sequence:
+      1.   Click disconnect option in menu
+In this way we tested using different test cases that found lot of errors which were corrected by recoding of that related procedures.
+
