@@ -1,2 +1,2 @@
 # faceidentification
-face identification using java and jsp
+Criminal Face Identification System using java and jsp
